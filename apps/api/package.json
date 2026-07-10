@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "dev": "wrangler dev",
+    "dev": "node init && wrangler dev",
     "deploy": "wrangler deploy",
-    "build": "wrangler deploy --dry-run"
+    "build": "node init && wrangler deploy --dry-run"
   },
   "dependencies": {
     "elysia": "latest"
